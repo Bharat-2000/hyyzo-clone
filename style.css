@@ -1,598 +1,614 @@
-        /* body tags essential only for the whole body */
-        body {
-            font-family: Poppins, verdana, 'sans-sarif' !important;
-        }
-
-        /* nav-bar starts here */
-        .navbar-logo {
-            width: 20%;
-        }
-
-        .search-box-navbar-hyyzo {
-            width: 50% !important;
-        }
-
-        .collapse_hyyzo {
-            justify-content: center !important;
-            margin-left: 0px !important;
-        }
-
-        .navbar-nav-hyyzo {
-            /* float: left !important; */
-            margin: 0px !important;
-            /* right: 0; */
-        }
-
-        .hyyzo_nav_collapse {
-            justify-content: end;
-        }
-
-        .search-box-navbar-imput-hyyzo {
-            width: 100% !important;
-        }
-
-        .nav-link {
-            color: white !important;
-        }
-
-        @media only screen and (max-width: 1100px) {
-            .nav-link-vanish {
-                display: none !important;
-            }
-        }
-
-        /* body starts here */
-
-        /* image tag start here */
-        .text-center {
-            font-size: 12px;
-            margin: 10px auto;
-        }
-        .carousel-inner{
-            overflow: visible !important;
-            /* position:static !important; */
-        }
-        .image-section {
-            align-items: center;
-            /* padding-left: 20px;  */
-            display: flex;
-            /* margin: 0px 0px; */
-            /* margin-left: 115px; */
-        }
-
-        .carousel-hyyzo {
-            padding: 0px 40px;
-            width: 75% !important;
-        }
-
-        .additional-image {
-            background-color: black;
-            align-items: center;
-            /* justify-items: center; */
-            width: 20%;
-        }
-
-        #additional-image-id {
-            width: 100%;
-        }
-
-        @media only screen and (max-width: 765px) {
-            .additional-image {
-                display: none;
-            }
-
-            .carousel-hyyzo {
-                width: 100%;
-            }
-        }
-        /* image section ends here */
-
-        /* top store */
-
-        .top-store-logo {
-            margin: 10px 0;
-            text-align: center;
-        }
-
-        .top-store-main-content {
-            /* justify-content: center; */
-            align-items: center;
-            width: 80%;
-            /* width: 100%; */
-            /* margin-left: 220px; */
-        }
-
-        .top-store {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
-        }
-
-        .inner-top-store {
-            border-radius: 5px;
-            font-size: 7px;
-            width: 100%;
-            padding: 5px 0px;
-            text-align: center;
-        }
-
-        .inner-top-store:hover {
-            background: linear-gradient(249deg, rgb(236, 94, 58) 0%, rgb(249, 186, 99) 100%) 0% 0% no-repeat padding-box padding-box transparent;
-        }
-
-        .inner-top-store:active {
-            background: linear-gradient(249deg, rgb(236, 94, 58) 0%, rgb(249, 186, 99) 100%) 0% 0% no-repeat padding-box padding-box transparent;
-        }
-
-
-        @media only screen and (max-width: 1305px) {
-            .top-store {
-                justify-content: center;
-            }
-        }
-
-        /* cards starts from here */
-        .card-main {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        @media only screen and (max-width: 700px) {
-            .card-main {
-                overflow-x: scroll !important;
-                display: flex !important;
-                flex-wrap: nowrap;
-            }
-        }
-
-        .cards-component {
-            margin: 10px 50px;
-            width: 20%;
-            height: 20%;
-            border-radius: 10px;
-        }
-
-        .card-img-top {
-            margin-bottom: 10px;
-        }
-
-        .card {
-            border-radius: 10px !important;
-        }
-
-        .card-body {
-            display: flex;
-            /* border-radius: 10px !important; */
-            border-bottom-left-radius: 10px !important;
-            border-bottom-right-radius: 10px !important;
-            /* height: 10% !important; */
-            background-color: #0d6efd;
-            text-align: center;
-        }
-
-        @media only screen and (max-width: 768px){
-            .card-body{
-                padding: 0rem !important;
-                font-size: 12px !important;
-            }
-        }
-        .nav-tabs-hyyzo {
-            color: black !important;
-        }
-
-        /* cashback starts here */
-        .cashback {
-            width: 100%;
-            height: 100%;
-            background-image: url('https://hyyzo.com/static/img/cashback.png');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            background-attachment: fixed;
-            position: relative;
-            margin-bottom: 10px;
-        }
-        
-        .main-cashback-class {
-            justify-content: center;
-        }
-        
-        @media only screen and (max-width: 768px) {
-            .cashback-ul {
-                overflow-x: scroll !important;
-            }
-            .cashback-li-components{
-                margin: 0 10px !important;
-                align-items:center !important;
-            }
-            .cashback-li-data{
-                display: none !important;
-            }
-            .main-cashback-class{
-                margin-bottom: 10px !important;
-            }
-        }
-
-
-        .cashback-ul {
-            display: flex;
-            text-align: center;
-            justify-content: center;
-            margin-top: center;
-        }
-
-        .cashback-logo-main {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .cashback-logo {
-            color: white;
-            margin: 10px 0;
-            font-size: 35px;
-            font-weight: 500;
-
-        }
-
-        
-
-        .cashback-ul {
-            list-style: none;
-        }
-
-        .cashback-li-components {
-            text-align: center;
-            margin: 20px 10px !important ;
-            font-size: 14px;
-            width: 20% !important;
-            width: 190px;
-        }
-
-        .cashback-li-logo {
-            width: 80px !important;
-            height: 100px !important;
-            margin: auto;
-            border: 4px solid rgb(242, 136, 77);
-            border-radius: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .cashback-li-logo>img {
-            width: 50%;
-        }
-
-        .cashback-li-data {
-            font-size: 14px;
-            font-weight: 500;
-            color: rgb(255, 255, 255);
-            text-align: center;
-            margin-bottom: 0px;
-        }
-
-        /* profit link starts here */
-
-        .profit-link {
-            box-shadow: rgb(0 0 0 / 10%) 0px 3px 24px;
-            width: 80%;
-        }
-
-        .form-class {
-            width: 50% !important;
-        }
-
-        .form-control {
-            border-radius: 20px !important;
-            background: rgb(238, 238, 238);
-            height: 35px;
-            width: 690px !important;
-        }
-
-        @media only screen and (max-width: 1100px){
-            .form-control{
-                width: 40vw !important;
-            }
-        }
-
-        .make-profit-button {
-            background: linear-gradient(259deg, rgb(236, 94, 58) 0%, rgb(249, 186, 99) 100%) 0% 0% no-repeat padding-box padding-box transparent !important;
-            color: white !important;
-            width: 50%;
-            border-radius: 20px !important;
-            margin-bottom: 5px;
-        }
-
-        /* profit-link ends here */
-
-        /* hyyzo-task-logo starts here */
-
-        .hyyzo-task-main {
-            box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
-            margin: 40px 20px !important;
-        }
-
-        .complete-task-list>h2 {
-            margin-left: 15px;
-            margin-top: 25px;
-        }
-        @media only screen and (max-width: 768px){
-            .complete-task-list{
-                display: none !important;
-            }
-            .second_div_carousel{
-                width: 100vw !important;
-            }
-        }
-
-        .task-list-li {
-            font-size: 22px;
-            margin-left: 10px;
-            margin-top: 2px;
-        }
-
-        .hyyzo-data-compoments {
-            position: relative;
-        }
-
-        .complete-task-list {
-            background: rgb(47, 60, 77);
-            color: white;
-            width: 50%;
-            /* height: 100% !important; */
-        }
-
-
-        .task-list-right {
-            width: 50%;
-        }
-
-        .hyyzo-task-logo {
-            margin: 10px 0px;
-        }
-
-        .task-list-right {
-            margin-left: 100px;
-        }
-
-        .task-list-right-logo {
-            text-align: center;
-            color: rgb(4, 191, 15);
-        }
-
-        .task-list-right-content {
-            text-align: center;
-        }
-
-        .image-overlap {
-            position: absolute;
-            /* top: 50%; */
-            left: 45%;
-            /* transform: translate(-50%, -50%); */
-        }
-
-        .image-overlap>img {
-            width: 114px;
-            height: 192px;
-        }
-
-        .second_div_carousel {
-            display: flex;
-            align-items: center;
-            background-color: black;
-            width: 50%;
-        }
-
-        .carousel_main_div {
-            width: 100%;
-        }
-
-        .data {
-            margin-left: 180px;
-        }
-
-        .carousel-item {
-            position: relative !important;
-        }
-
-        .carousel-item>img {
-            width: 150px !important;
-            height: 220px !important;
-            position: absolute;
-            top: 0;
-            bottom: 0 !important;
-        }
-
-        .data>h1 {
-            color: rgb(4, 191, 15);
-            text-align: center;
-        }
-
-        .data>p {
-            color: white;
-            text-align: center;
-        }
-
-        .view_task_button {
-            background: linear-gradient(259deg, rgb(236, 94, 58) 0%, rgb(249, 186, 99) 100%) 0% 0% no-repeat padding-box padding-box transparent !important;
-            color: white !important;
-            width: 50%;
-            border-radius: 20px !important;
-            margin-bottom: 5px;
-            margin-top: 30px;
-            margin-left: 180px;
-        }
-
-        .inner_position_indicator {
-            margin-top: 15px !important;
-        }
-
-        /* hyyzo-task-logo ends here */
-
-
-        /* 2-image component starts here */
-        .image-component-main {
-            box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
-            width: 100% !important;
-            margin-bottom: 30px;
-            margin-top: 5px;
-        }
-        .images-content{
-            width: 100vw !important;
-            display: flex;
-        }
-        .image1-content{
-            width: 50% !important;
-        }
-        .image-data{
-            width: 100% !important;
-            box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
-            padding: 10px 10px;
-        }
-        .image2-content{
-            width: 50% !important;
-        }
-        
-        .carousel_2_picture{
-            display: none !important;
-        }
-
-        @media only screen and (max-width: 768px){
-            .images-content{
-                display: none !important;
-            }
-            .carousel_2_picture{
-                display: block !important;
-            }
-
-        }
-        /* 2-image component ends here */
-
-        /* refer and earn starts here */
-        .main-refer-container {
-            width: 100%;
-        }
-
-        .refer-content-link>img {
-            width: 100%;
-        }
-
-
-        /* refer and earn end here */
-        /* footer starts here */
-
-        .footer-main {
-            padding: 1.5rem;
-            margin: auto;
-        }
-
-        .footer-content {
-            color: white;
-        }
-        @media only screen and (max-width: 930px){
-            .footer-content-main{
-                flex-direction: column;
-            }
-        }
-        .footer-pages-logo {
-            text-transform: uppercase;
-            padding: 0.2rem 0px;
-            word-spacing: 1.3px;
-            margin-bottom: 5px;
-            font: 600 18px / 30px Poppins;
-            letter-spacing: 0px;
-            color: rgb(244, 179, 89);
-            opacity: 1;
-        }
-
-        .connect-with-us-text {
-            text-transform: uppercase;
-            padding: 0.2rem 0px;
-            word-spacing: 1.3px;
-            margin-bottom: 5px;
-            font: 600 18px / 30px Poppins;
-            letter-spacing: 0px;
-            color: rgb(244, 179, 89);
-            opacity: 1;
-        }
-
-        .social-icons {
-            display: flex;
-            width: 100%;
-            justify-content: space-between;
-        }
-
-        .fa-brands {
-            color: white;
-        }
-
-        .footer-text {
-            padding: 40px;
-            height: 40px;
-            font-family: Poppins, verdana, sans-sarif;
-            color: rgb(158, 158, 158);
-            border-top: 1px solid rgba(101, 101, 101, 0.27);
-            display: flex;
-            -webkit-box-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            align-items: center;
-        }
-
-        .list-content {
-            list-style: none;
-        }
-
-        .button {
-            width: 100%;
-            display: flex;
-            margin-top: 20px;
-
-        }
-
-        .btnn {
-            width: 120px;
-            font-size: 16px;
-            border-radius: 15px;
-            outline: none;
-            border: 2px solid rgb(244, 179, 89);
-            background-color: transparent;
-            color: rgb(244, 179, 89);
-            margin-left: 10px;
-        }
-
-        .btnn:hover {
-            background-color: white;
-            color: black;
-            transition: 0.5s;
-            cursor: pointer;
-        }
-
-        .contact-us-header {
-            text-transform: uppercase;
-            padding: 0.2rem 0px;
-            word-spacing: 1.3px;
-            margin-bottom: 5px;
-            font: 600 18px / 30px Poppins;
-            letter-spacing: 0px;
-            color: rgb(244, 179, 89);
-            opacity: 1;
-        }
-
-        .whatsapp {
-            display: flex;
-        }
-
-        .whatsapp-number {
-            color: white;
-            font-weight: 500;
-            margin-left: 5px;
-        }
-
-        .content-container {
-            padding: 0 15px;
-        }
+/* body tags essential only for the whole body */
+body {
+  font-family: Poppins, verdana, "sans-sarif" !important;
+}
+
+/* nav-bar starts here */
+.navbar-logo {
+  width: 20%;
+}
+
+.search-box-navbar-hyyzo {
+  width: 50% !important;
+}
+
+.collapse_hyyzo {
+  justify-content: center !important;
+  margin-left: 0px !important;
+}
+
+.navbar-nav-hyyzo {
+  /* float: left !important; */
+  margin: 0px !important;
+  /* right: 0; */
+}
+
+.hyyzo_nav_collapse {
+  justify-content: end;
+}
+
+.search-box-navbar-imput-hyyzo {
+  width: 100% !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+@media only screen and (max-width: 1100px) {
+  .nav-link-vanish {
+    display: none !important;
+  }
+}
+
+/* body starts here */
+
+/* image tag start here */
+.text-center {
+  font-size: 12px;
+  margin: 10px auto;
+}
+/* .carousel-inner { */
+  /* overflow: visible !important; */
+  /* position:static !important; */
+/* } */
+
+@media only screen and (max-width: 768px){
+  .carousel-inner{
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+.image-section {
+  /* padding-left: 20px;  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0px 0px; */
+  /* margin-left: 115px; */
+}
+
+.carousel-hyyzo {
+  padding: 0px 40px;
+  width: 75% !important;
+}
+
+.additional-image {
+  background-color: black;
+  align-items: center;
+  /* justify-items: center; */
+  width: 20%;
+}
+
+#additional-image-id {
+  width: 100%;
+}
+
+@media only screen and (max-width: 765px) {
+  .additional-image {
+    display: none;
+  }
+
+  .carousel-hyyzo {
+    width: 100%;
+  }
+}
+/* image section ends here */
+
+/* top store */
+
+.top-store-logo {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.top-store-main-content {
+  /* justify-content: center; */
+  align-items: center;
+  width: 80%;
+  /* width: 100%; */
+  /* margin-left: 220px; */
+}
+
+.top-store {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+}
+
+.inner-top-store {
+  border-radius: 5px;
+  font-size: 7px;
+  width: 100%;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.inner-top-store:hover {
+  background: linear-gradient(
+      249deg,
+      rgb(236, 94, 58) 0%,
+      rgb(249, 186, 99) 100%
+    )
+    0% 0% no-repeat padding-box padding-box transparent;
+}
+
+.inner-top-store:active {
+  background: linear-gradient(
+      249deg,
+      rgb(236, 94, 58) 0%,
+      rgb(249, 186, 99) 100%
+    )
+    0% 0% no-repeat padding-box padding-box transparent;
+}
+
+@media only screen and (max-width: 1305px) {
+  .top-store {
+    justify-content: center;
+  }
+}
+
+/* cards starts from here */
+.card-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .card-main {
+    overflow-x: scroll !important;
+    display: flex !important;
+    flex-wrap: nowrap;
+  }
+}
+
+.cards-component {
+  margin: 10px 50px;
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  margin-bottom: 10px;
+}
+
+.card {
+  border-radius: 10px !important;
+}
+
+.card-body {
+  display: flex;
+  /* border-radius: 10px !important; */
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  /* height: 10% !important; */
+  background-color: #0d6efd;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-body {
+    padding: 0rem !important;
+    font-size: 12px !important;
+  }
+}
+.nav-tabs-hyyzo {
+  color: black !important;
+}
+
+/* cashback starts here */
+.cashback {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://hyyzo.com/static/img/cashback.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.main-cashback-class {
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .cashback-ul {
+    overflow-x: scroll !important;
+  }
+  .cashback-li-components {
+    margin: 0 10px !important;
+    align-items: center !important;
+  }
+  .cashback-li-data {
+    display: none !important;
+  }
+  .main-cashback-class {
+    margin-bottom: 10px !important;
+  }
+}
+
+.cashback-ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: center;
+}
+
+.cashback-logo-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cashback-logo {
+  color: white;
+  margin: 10px 0;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.cashback-ul {
+  list-style: none;
+}
+
+.cashback-li-components {
+  text-align: center;
+  margin: 20px 10px !important ;
+  font-size: 14px;
+  width: 20% !important;
+  width: 190px;
+}
+
+.cashback-li-logo {
+  width: 80px !important;
+  height: 100px !important;
+  margin: auto;
+  border: 4px solid rgb(242, 136, 77);
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cashback-li-logo > img {
+  width: 50%;
+}
+
+.cashback-li-data {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* profit link starts here */
+
+.profit-link {
+  box-shadow: rgb(0 0 0 / 10%) 0px 3px 24px;
+  width: 80%;
+}
+
+.form-class {
+  width: 50% !important;
+}
+
+.form-control {
+  border-radius: 20px !important;
+  background: rgb(238, 238, 238);
+  height: 35px;
+  width: 690px !important;
+}
+
+@media only screen and (max-width: 1100px) {
+  .form-control {
+    width: 40vw !important;
+  }
+}
+
+.make-profit-button {
+  background: linear-gradient(
+      259deg,
+      rgb(236, 94, 58) 0%,
+      rgb(249, 186, 99) 100%
+    )
+    0% 0% no-repeat padding-box padding-box transparent !important;
+  color: white !important;
+  width: 50%;
+  border-radius: 20px !important;
+  margin-bottom: 5px;
+}
+
+/* profit-link ends here */
+
+/* hyyzo-task-logo starts here */
+
+.hyyzo-task-main {
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+  margin: 40px 20px !important;
+}
+
+.complete-task-list > h2 {
+  margin-left: 15px;
+  margin-top: 25px;
+}
+@media only screen and (max-width: 768px) {
+  .complete-task-list {
+    display: none !important;
+  }
+  .second_div_carousel {
+    width: 100vw !important;
+  }
+}
+
+.task-list-li {
+  font-size: 22px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.hyyzo-data-compoments {
+  position: relative;
+}
+
+.complete-task-list {
+  background: rgb(47, 60, 77);
+  color: white;
+  width: 50%;
+  /* height: 100% !important; */
+}
+
+.task-list-right {
+  width: 50%;
+}
+
+.hyyzo-task-logo {
+  margin: 10px 0px;
+}
+
+.task-list-right {
+  margin-left: 100px;
+}
+
+.task-list-right-logo {
+  text-align: center;
+  color: rgb(4, 191, 15);
+}
+
+.task-list-right-content {
+  text-align: center;
+}
+
+.image-overlap {
+  position: absolute;
+  /* top: 50%; */
+  left: 45%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.image-overlap > img {
+  width: 114px;
+  height: 192px;
+}
+
+.second_div_carousel {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  width: 50%;
+}
+
+.carousel_main_div {
+  width: 100%;
+}
+
+.data {
+  margin-left: 180px;
+}
+
+
+.carousel_item_second_div > img {
+  position: relative !important;
+  width: 150px !important;
+  height: 220px !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+}
+
+.data > h1 {
+  color: rgb(4, 191, 15);
+  text-align: center;
+}
+
+.data > p {
+  color: white;
+  text-align: center;
+}
+
+.view_task_button {
+  background: linear-gradient(
+      259deg,
+      rgb(236, 94, 58) 0%,
+      rgb(249, 186, 99) 100%
+    )
+    0% 0% no-repeat padding-box padding-box transparent !important;
+  color: white !important;
+  width: 50%;
+  border-radius: 20px !important;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  margin-left: 180px;
+}
+
+.inner_position_indicator {
+  margin-top: 15px !important;
+}
+
+/* hyyzo-task-logo ends here */
+
+/* 2-image component starts here */
+.image-component-main {
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+  width: 100% !important;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.images-content {
+  width: 100vw !important;
+  display: flex;
+}
+.image1-content {
+  width: 50% !important;
+}
+.image-data {
+  width: 100% !important;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+  padding: 10px 10px;
+}
+.image2-content {
+  width: 50% !important;
+}
+
+.carousel_2_picture {
+  display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .images-content {
+    display: none !important;
+  }
+  .carousel_2_picture {
+    display: block !important;
+  }
+}
+/* 2-image component ends here */
+
+/* refer and earn starts here */
+.main-refer-container {
+  width: 100%;
+}
+
+.refer-content-link > img {
+  width: 100%;
+}
+
+/* refer and earn end here */
+/* footer starts here */
+
+.footer-main {
+  padding: 1.5rem;
+  margin: auto;
+}
+
+.footer-content {
+  color: white;
+}
+@media only screen and (max-width: 930px) {
+  .footer-content-main {
+    flex-direction: column;
+  }
+}
+.footer-pages-logo {
+  text-transform: uppercase;
+  padding: 0.2rem 0px;
+  word-spacing: 1.3px;
+  margin-bottom: 5px;
+  font: 600 18px / 30px Poppins;
+  letter-spacing: 0px;
+  color: rgb(244, 179, 89);
+  opacity: 1;
+}
+
+.connect-with-us-text {
+  text-transform: uppercase;
+  padding: 0.2rem 0px;
+  word-spacing: 1.3px;
+  margin-bottom: 5px;
+  font: 600 18px / 30px Poppins;
+  letter-spacing: 0px;
+  color: rgb(244, 179, 89);
+  opacity: 1;
+}
+
+.social-icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.fa-brands {
+  color: white;
+}
+
+.footer-text {
+  padding: 40px;
+  height: 40px;
+  font-family: Poppins, verdana, sans-sarif;
+  color: rgb(158, 158, 158);
+  border-top: 1px solid rgba(101, 101, 101, 0.27);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.list-content {
+  list-style: none;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.btnn {
+  width: 120px;
+  font-size: 16px;
+  border-radius: 15px;
+  outline: none;
+  border: 2px solid rgb(244, 179, 89);
+  background-color: transparent;
+  color: rgb(244, 179, 89);
+  margin-left: 10px;
+}
+
+.btnn:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.contact-us-header {
+  text-transform: uppercase;
+  padding: 0.2rem 0px;
+  word-spacing: 1.3px;
+  margin-bottom: 5px;
+  font: 600 18px / 30px Poppins;
+  letter-spacing: 0px;
+  color: rgb(244, 179, 89);
+  opacity: 1;
+}
+
+.whatsapp {
+  display: flex;
+}
+
+.whatsapp-number {
+  color: white;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.content-container {
+  padding: 0 15px;
+}
