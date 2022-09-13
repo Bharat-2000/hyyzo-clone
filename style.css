@@ -144,9 +144,23 @@ body {
     0% 0% no-repeat padding-box padding-box transparent;
 }
 
-@media only screen and (max-width: 1305px) {
+@media only screen and (max-width: 768px) {
   .top-store {
     justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .ul_tabs{
+    flex-wrap: nowrap !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-item{
+    height: 100% ;
+  }
+  .nav-item>a{
+    height: 100%;
   }
 }
 
@@ -188,12 +202,20 @@ body {
   /* height: 10% !important; */
   background-color: #0d6efd;
   text-align: center;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
   .card-body {
     padding: 0rem !important;
     font-size: 12px !important;
+  }
+  .card_body_content{
+    justify-content: center;
+  }
+  .card_body_content>img{
+    width: auto;
+    height: 15px;
   }
 }
 .nav-tabs-hyyzo {
@@ -320,7 +342,7 @@ body {
     )
     0% 0% no-repeat padding-box padding-box transparent !important;
   color: white !important;
-  width: 50%;
+  width: 75%;
   border-radius: 20px !important;
   margin-bottom: 5px;
 }
@@ -333,7 +355,9 @@ body {
   box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
   margin: 40px 20px !important;
 }
-
+.hyyzo-data-components{
+  box-shadow: rgb(0 0 0 /16%) 0px 3px 6px;
+}
 .complete-task-list > h2 {
   margin-left: 15px;
   margin-top: 25px;
@@ -344,6 +368,12 @@ body {
   }
   .second_div_carousel {
     width: 100vw !important;
+  }
+  .data>h1{
+    font-size: 25px;
+  }
+  .data>p{
+    font-size: 10px;
   }
 }
 
@@ -476,16 +506,21 @@ body {
   width: 50% !important;
 }
 
-.carousel_2_picture {
+.carousel_div_img {
   display: none !important;
 }
 
 @media only screen and (max-width: 768px) {
-  .images-content {
-    display: none !important;
+  .images_content_super_div {
+    display: none !important; 
   }
-  .carousel_2_picture {
+  .carousel_2_picture{
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+  }
+  .carousel_div_img{
     display: block !important;
+    justify-content: center;
+    width: 100% !important;
   }
 }
 /* 2-image component ends here */
@@ -497,6 +532,9 @@ body {
 
 .refer-content-link > img {
   width: 100%;
+}
+.refer-contents{
+  margin-bottom: 20px;
 }
 
 /* refer and earn end here */
@@ -510,8 +548,16 @@ body {
 .footer-content {
   color: white;
 }
-@media only screen and (max-width: 930px) {
-  .footer-content-main {
+
+.footer-content-main{
+  display: flex !important;
+  justify-content: space-between;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-content-main{
+    /* align-items: flex-end !important; */
     flex-direction: column;
   }
 }
@@ -611,4 +657,9 @@ body {
 
 .content-container {
   padding: 0 15px;
+}
+
+.footer-text{
+  font-size: 14px !important;
+  text-align: center !important;
 }
